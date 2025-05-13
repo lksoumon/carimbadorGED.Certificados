@@ -8,6 +8,8 @@
 // @match        http://sigeduca.seduc.mt.gov.br/ged/hwgedhistcertificado.aspx?*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
+// @updateURL    https://github.com/lksoumon/carimbadorGED.Certificados/raw/refs/heads/main/carimbar_certificado.user.js
+// @downloadURL  https://github.com/lksoumon/carimbadorGED.Certificados/raw/refs/heads/main/carimbar_certificado.user.js
 // ==/UserScript==
 
 var tecs = [
