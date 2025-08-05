@@ -1,15 +1,13 @@
 // ==UserScript==
 // @name         Carimbador GED - certificado
 // @namespace    http://tampermonkey.net/
-// @version      3.92
+// @version      3.93
 // @description  try to take over the world!
 // @author       Lucas Monteiro
 // @require https://code.jquery.com/jquery-3.6.0.min.js
 // @match        http://sigeduca.seduc.mt.gov.br/ged/hwgedhistcertificado.aspx?*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
-// @updateURL    https://github.com/lksoumon/carimbadorGED.Certificados/raw/refs/heads/main/carimbar_certificado.user.js
-// @downloadURL  https://github.com/lksoumon/carimbadorGED.Certificados/raw/refs/heads/main/carimbar_certificado.user.js
 // ==/UserScript==
 
 var tecs = [
@@ -94,7 +92,7 @@ modo = 'certificado';
     carimbo.style.textAlign = 'center'; // Centraliza o texto horizontalmente
 
     // Adiciona as informações ao carimbo
-    carimbo.innerHTML = 'ESTADO DE MATO GROSSO<br>Secretaria de Estado de Educação<br><strong>Escola Estadual de Ensino Médio<br>"MAJOR OTÁVIO PITALUGA"</strong><br>Email: escola.10995@edu.mt.gov.br<br>Avenida Amazonas, 789 - Fone:66 3022-2196<br>Rondonópolis - Mato Grosso'; // Atualize com as informações desejadas
+    carimbo.innerHTML = 'REPÚBLICA FEDERATIVA DO BRASIL<br>ESTADO DE MATO GROSSO<br>SECRETARIA DE ESTADO DE EDUCAÇÃO<br><br><strong>EE MAJOR OTÁVIO PITALUGA</strong><br>Decreto de Criação nº 1887 D.O. 07/03/1974<br>Email: escola.10995@edu.mt.gov.br<br>Avenida Amazonas, 789 - Fone:66 3022-2196<br>Rondonópolis - Mato Grosso'; // Atualize com as informações desejadas
 
     // Adiciona o carimbo à página
     document.body.appendChild(carimbo);
